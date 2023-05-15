@@ -24,7 +24,6 @@
         <link rel="stylesheet" type="text/css" href="metaviz.css?v=0.9.6">
 
         <!-- GUI -->
-        <link rel="stylesheet" type="text/css" href="../metaviz-gui/litemenu/litemenu.css?v=0.9.6">
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/promenu.css?v=0.9.6">
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/promenu-widgets.css?v=0.9.6">
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/widgets/promenu-option.css?v=0.9.6">
@@ -34,7 +33,6 @@
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/widgets/promenu-submenu.css?v=0.9.6">
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/widgets/promenu-select.css?v=0.9.6">
         <link rel="stylesheet" type="text/css" href="../metaviz-gui/promenu/widgets/promenu-switch.css?v=0.9.6">
-        <link rel="stylesheet" type="text/css" href="../metaviz-gui/popup/window.css?v=0.9.6">
 
         <!-- Links -->
         <link rel="stylesheet" type="text/css" href="../metaviz-links/bezier.css?v=0.9.6">
@@ -86,23 +84,18 @@
 
         <!-- GUI -->
         <script type="text/javascript" src="../total-text/render.js"></script>
-        <script type="text/javascript" src="lib/metaviz-sandbox-popup/tabs.js?v=0.9.6"></script>
-        <script type="text/javascript" src="lib/metaviz-sandbox-popup/window.js?v=0.9.6"></script>
-        <script type="text/javascript" src="lib/metaviz-sandbox-piemenu/piemenu.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/base.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/badge.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/bitmap.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/button.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/icon.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/input.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/label.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/textarea.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/richtext.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/spinner.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/link.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/select.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/controls/slider.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/litemenu/litemenu.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/base.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/badge.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/bitmap.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/button.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/icon.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/input.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/label.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/spinner.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/link.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/select.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/slider.js?v=0.9.6"></script>
+        <script type="text/javascript" src="controls/richtext.js?v=0.9.6"></script>
         <script type="text/javascript" src="../metaviz-gui/promenu/promenu-widget.js?v=0.9.6"></script>
         <script type="text/javascript" src="../metaviz-gui/promenu/promenu-panel.js?v=0.9.6"></script>
         <script type="text/javascript" src="../metaviz-gui/promenu/promenu.js?v=0.9.6"></script>
@@ -114,10 +107,9 @@
         <script type="text/javascript" src="../metaviz-gui/promenu/widgets/promenu-submenu.js?v=0.9.6"></script>
         <script type="text/javascript" src="../metaviz-gui/promenu/widgets/promenu-select.js?v=0.9.6"></script>
         <script type="text/javascript" src="../metaviz-gui/promenu/widgets/promenu-switch.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/popup/window.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/arrange/geometry.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/arrange/sort.js?v=0.9.6"></script>
-        <script type="text/javascript" src="../metaviz-gui/arrange/align.js?v=0.9.6"></script>
+        <script type="text/javascript" src="arrange/geometry.js?v=0.9.6"></script>
+        <script type="text/javascript" src="arrange/sort.js?v=0.9.6"></script>
+        <script type="text/javascript" src="arrange/align.js?v=0.9.6"></script>
 
         <!-- Render -->
         <script type="text/javascript" src="../total-diagram/node.js"></script>
@@ -163,7 +155,6 @@
         <script type="text/javascript" src="format/stack/data-out.js?v=0.9.6"></script>
         <script type="text/javascript" src="format/html/data-out.js?v=0.9.6"></script>
         <script type="text/javascript" src="storage/filesystem/data-in-out.js?v=0.9.6"></script>
-        <!-- <script type="text/javascript" src="storage/indexeddb/data-in-out.js?v=0.9.6"></script> -->
 
         <!-- Nodes: Standard -->
         <script type="text/javascript" src="../metaviz-nodes/default/node-point.js?v=0.9.6"></script>
