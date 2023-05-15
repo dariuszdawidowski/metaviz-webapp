@@ -123,16 +123,8 @@
             <%- await minjs('editor/selection.js') %>
             <%- await minjs('editor/render.js') %>
             <%- await minjs('editor/editor.js') %>
-            <%- await minjs('format/json/data-migrate.js') %>
-            <%- await minjs('format/json/data-in.js') %>
-            <%- await minjs('format/json/data-out.js') %>
-            <%- await minjs('../metaviz/format/stack/data-in.js') %>
-            <%- await minjs('../metaviz/format/stack/data-out.js') %>
-            <%- await minjs('format/html/data-out.js') %>
-            <%- await minjs('net/sync.js') %>
-            <%- await minjs('net/ajax-in.js') %>
-            <%- await minjs('net/ajax-out.js') %>
-            <%- await minjs('net/transfer.js') %>
+            <%- await minjs('format/stack/data-in.js') %>
+            <%- await minjs('format/stack/data-out.js') %>
             <%- await minjs('storage/filesystem/data-in-out.js') %>
             <%- await minjs('storage/indexeddb/data-in-out.js') %>
             <%- await minjs('../metaviz-nodes/default/node-point.js') %>
