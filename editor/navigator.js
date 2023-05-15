@@ -13,7 +13,7 @@
   ^^^^^^^^^^^^^^^^^^^^^^^^
 */
 
-class MetavizViewerBrowser {
+class MetavizNavigatorBrowser {
 
     constructor() {
 

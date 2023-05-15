@@ -367,9 +367,9 @@ class MetavizContextMenu extends Menu {
                 // Project name
                 new MenuInput({ id: 'metaviz-menu-project-name', placeholder: 'Project name', value: projectName, onChange: (event) => {
                     // Undo/Sync
-                    metaviz.editor.history.store({action: 'board', name: event.target.value, namePrev: metaviz.editor.getProjectName()});
+                    metaviz.editor.history.store({action: 'board', name: event.target.value, namePrev: metaviz.editor.getBoardName()});
                     // Set new name
-                    metaviz.editor.setProjectName(event.target.value);
+                    metaviz.editor.setBoardName(event.target.value);
                 }}),
             ] }));
 
