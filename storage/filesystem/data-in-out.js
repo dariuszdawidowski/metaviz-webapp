@@ -1,7 +1,6 @@
 /**
  * Metaviz Filesystem
  * (c) 2009-2023 Dariusz Dawidowski, All Rights Reserved.
- * (c) 2020-2023 Metaviz Sp. z o.o., All Rights Reserved.
  */
 
 /*
