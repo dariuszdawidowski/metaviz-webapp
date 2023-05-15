@@ -1,7 +1,6 @@
 /**
  * Metaviz Geometry Measures and Utils
  * (c) 2009-2022 Dariusz Dawidowski, All Rights Reserved.
- * (c) 2020-2022 Metaviz Sp. z o.o., All Rights Reserved.
  */
 
 class MetavizGeometry {

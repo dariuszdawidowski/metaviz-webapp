@@ -1,7 +1,6 @@
 /**
  * Metaviz Arrange
  * (c) 2009-2022 Dariusz Dawidowski, All Rights Reserved.
- * (c) 2020-2022 Metaviz Sp. z o.o., All Rights Reserved.
  */
 
 class MetavizArrangeAlign extends MetavizGeometry {
