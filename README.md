@@ -5,13 +5,10 @@ Metaviz
 Diagramming application for web browser. Distribution repository of the tool in the html file.
 </p>
 <p align="center">
-Supported browsers: **Chrome**, **Opera** and **Edge**.
+Supported browsers: recent versions of Chrome, Opera and Edge.
 </p>
-<p align="center">
 
 [![license](https://img.shields.io/github/license/dariuszdawidowski/metaviz?color=9cf)](./LICENSE)
-
-</p>
 
 # About
 
