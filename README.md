@@ -5,13 +5,18 @@ Metaviz
 Diagramming application for web browser. Distribution repository of the tool in the html file.
 </p>
 <p align="center">
+Supported browsers: **Chrome**, **Opera** and **Edge**.
+</p>
+<p align="center">
+
 [![license](https://img.shields.io/github/license/dariuszdawidowski/metaviz?color=9cf)](./LICENSE)
+
 </p>
 
 # About
 
 Metaviz is a web-based team productivity tool for creating visually stunning diagrams with ease.
-This application empowers you to construct diagrams using various elements, including points, labels, text, and clipart.
+This application empowers you to construct diagrams using various elements, including points, labels, text and cliparts.
 
 <img src="https://raw.githubusercontent.com/dariuszdawidowski/metaviz-editor/main/metaviz-editor-showcase.png" />
 
@@ -33,7 +38,7 @@ Open file metaviz.html in the browser (File->Open file... or just drag&drop) and
 # File format
 
 Metaviz stores data in a xml format with .mv extension.
-It is iterative text file with one line assigned to one action and sectors assigned to the user's session to make the format friendly to the version control system (like git).
+It is iterative text file with one line assigned to one action and sectors assigned to fake user's session to make the format friendly to the version control system (like git).
 
 # Create new project file
 
