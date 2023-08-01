@@ -1,6 +1,6 @@
 {
     "short_name": "Metaviz",
-    "name": "Metaviz",
+    "name": "Metaviz Webapp",
     "description": "Team productivity tool.",
     "categories": ["business", "finance", "productivity", "utilities"],
     "icons": [
