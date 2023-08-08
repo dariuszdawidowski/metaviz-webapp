@@ -28,6 +28,12 @@ Whether you need to:
 
 Important feature is the capability to develop custom plugins, providing users with the flexibility to expand its functionality and customize it according to their specific requirements.
 
+# Important note
+
+IF you are user - you are in the right place. No code here.\
+This project is bootstrap, just plain html loading all libraries from CDN to quick start for end users.
+If you are looking for code see the Libraries section below.
+
 # Quick start
 
 Open file metaviz.html in the browser (File->Open file... or just drag&drop) and you are ready to work.
