@@ -5,14 +5,14 @@ Metaviz
 Diagramming application for web browser. Distribution repository of the tool in the html file.
 </p>
 <p align="center">
-Supported browsers: recent versions of Chrome, Opera and Edge.
+Supported browsers: recent versions of Chrome, Opera, Edge and Firefox.
 </p>
 
 [![license](https://img.shields.io/github/license/dariuszdawidowski/metaviz?color=9cf)](./LICENSE)
 
 # About
 
-Metaviz is a web-based team productivity tool for creating visually stunning diagrams with ease.
+Metaviz is a web-based visual productivity & creativity tool.
 This application empowers you to construct diagrams using various elements, including points, labels, text and cliparts.
 
 <img src="https://raw.githubusercontent.com/dariuszdawidowski/metaviz-editor/main/metaviz-editor-showcase.png" />
@@ -36,26 +36,23 @@ If you are looking for code see the Libraries section below.
 
 # Quick start
 
-Open file metaviz.html in the browser (File->Open file... or just drag&drop) and you are ready to work.
+Open file metaviz.html in the browser and you are ready to work.
 
 # File format
 
 Metaviz stores data in a xml format with .mv extension.
 It is iterative text file with one line assigned to one action and sectors assigned to fake user's session to make the format friendly to the version control system (like git).
+Images are embedded and serialized into base64.
 
 # Create new project file
 
 1. Open metaviz.html in your browser.
-NOTE: due to NativeFilesystemAPI only **Chrome**, **Opera** and **Edge** are supported at the moment!
+NOTE: due to NativeFilesystemAPI only **Chrome**, **Opera**, **Edge**  and **Firefox** are supported at the moment!
 
 2. Right Mouse Button -> Add Node -> Text. Type "Hello World" inside.
 
-3. Right Mouse Button -> Save. Due to security limitations in browsers this will download file for the first time. To save a file normally in a future - it must already exist.
+3. Right Mouse Button -> Save. This is your project file.
 
-4. Move downloaded metaviz-diagram.mv file into your project.
-
-5. Since now you can use this file in "normal" way. Start Metaviz again (reload page) and use Right Mouse Button -> Open File...
-There will be no download from now on, file will be just saved.
 
 # Libraries
 
